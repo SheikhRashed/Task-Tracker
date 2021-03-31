@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "text": "Doctors Appointment",
+      "day": "Feb 5th at 2:30pm",
+      "reminder": false
+    },
+    {
+      "id": "2",
+      "text": "Interview At Lotus Technology Development",
+      "day": "April 01 at 3:30pm",
+      "reminder": false
+    },
+    {
+      "id": "3",
+      "text": "Project Discuss ",
+      "day": "April 02 at 5:00pm",
+      "reminder": false
+    }
+  ]
+}
