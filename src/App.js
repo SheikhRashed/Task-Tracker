@@ -4,6 +4,8 @@ import './App.css';
 // components
 import Header from './components/Header';
 import TaskList from './components/Tasks';
+import AddTask from './components/AddTask';
+
 function App() {
   const [tasks, setTasks] = useState([
     {
@@ -41,6 +43,9 @@ function App() {
   return (
     <div className='container'>
       <Header />
+
+      <AddTask />
+
       {tasks.length !== 0 ? (
         <TaskList
           tasks={tasks}
