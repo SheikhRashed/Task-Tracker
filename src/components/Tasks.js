@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FaTimes } from 'react-icons/fa';
 // component
 import Task from './Task';
 function Tasks({ tasks }) {

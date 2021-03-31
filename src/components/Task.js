@@ -1,9 +1,10 @@
 import React from 'react';
+import { FaTimes } from 'react-icons/fa';
 
 const Task = ({ task }) => {
   return (
     <div className='task'>
-      <span
+      {/* <span
         className='bold'
         style={{
           fontWeight: 'bold',
@@ -15,8 +16,10 @@ const Task = ({ task }) => {
         }}
       >
         {task.id}
-      </span>
-      <h3>{task.text}</h3>
+      </span> */}
+      <h3>
+        {task.text} <FaTimes style={{ color: 'red', cursor: 'pointer' }} />
+      </h3>
       <p>{task.day}</p>
     </div>
   );
