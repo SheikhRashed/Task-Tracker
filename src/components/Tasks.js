@@ -1,8 +1,7 @@
 import React from 'react';
-import { FaTimes } from 'react-icons/fa';
 // component
 import Task from './Task';
-function Tasks({ tasks }) {
+function Tasks({ tasks, onDelete }) {
   return (
     <>
       {/* {tasks.map((task) => (
@@ -10,7 +9,7 @@ function Tasks({ tasks }) {
       ))} */}
 
       {tasks.map((task) => (
-        <Task key={task.id} task={task} />
+        <Task key={task.id} task={task} onDelete={onDelete} />
       ))}
     </>
   );
